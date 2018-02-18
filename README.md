@@ -1,0 +1,5 @@
+# **Bayesian Classifier**
+
+## Goals
+
+
