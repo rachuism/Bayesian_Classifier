@@ -1,5 +1,7 @@
 # **Bayesian Classifier**
 
+![3-lane](/Images/3-lane.png)
+
 ## Goals
 
 Predict the behaviour of the vehicles on a highway. 
@@ -22,5 +24,13 @@ predict(self, observation): Given a new data point, prediction requires two step
 
 1. Compute conditional probabilities for each feature/label combination.
 
-![GitHub Logo](/Images/3-lane.png)
+![Cond-prob](/Images/Cond_probab.png)
+
+2. Use the conditional probabilities in a Naive Bayes classifier.
+
+![argmax](/Images/argmax.png)
+
+In this formula, the argmax is taken over all possible labels C_k
+and the product is taken over all features x_i with values v_i.
+
 
